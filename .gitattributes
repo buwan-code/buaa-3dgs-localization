@@ -1,0 +1,16 @@
+# 统一按 LF 存储（源码来自 Linux 板端，避免 CRLF 污染）
+* text=auto eol=lf
+
+# 明确文本类型
+*.c    text eol=lf
+*.cpp  text eol=lf
+*.h    text eol=lf
+*.md   text eol=lf
+*.sh   text eol=lf
+Makefile text eol=lf
+
+# 二进制（本仓库本不该有，防御性声明）
+*.png  binary
+*.jpg  binary
+*.ply  binary
+*.rknn binary
